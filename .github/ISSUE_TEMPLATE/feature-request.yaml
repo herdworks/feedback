@@ -1,0 +1,68 @@
+name: New Feature Request
+description: Submit requests for NEW product features
+title: "[<product>] <subject>"
+labels:
+  - feature-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to share your feedback and help us improve our products! 
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: |
+        What product are you using?
+      multiple: false
+      options:
+        - The Magic Highlighter
+      validations:
+        required: true
+
+  - type: input
+    id: subject
+    attributes:
+      label: Subject
+      description: |
+        Please provide a brief subject describing the nature of your feedback
+      placeholder: |
+        Add support for [my favorite search engine]
+    validations:
+      required: true
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: |
+        How can we improve the product? 
+
+        * Give as many details as you can to help us understand the change you want to see.  
+        * Why should the product be changed? What use cases does it support?  
+        * What is the expected outcome?  
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: |
+        Any additional information, configuration, or data that might be helpful to reproduce the issue.
+
+        _NOTE: add screenshots and/or links showing the current behavior if appropriate._
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: |
+        This project has a Code of Conduct that all participants are expected to understand and follow.
+      options:
+        - label: I have read and agree to the Herd Works Product Feedback Issue Tracker project's [Code of Conduct](https://github.com/herdworks/feedback/blob/main/CODE_OF_CONDUCT.md)
+          required: true
+
