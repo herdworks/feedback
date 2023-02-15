@@ -8,12 +8,9 @@ Contributors to this issue tracker will receive mentions in our product release 
 
 Please note that all feedback submitted via this issue tracker will be publicly available on GitHub.com, including any screenshots and other details provided. 
 
-## GitHub Stars
+## Become a stargazer
 
-Help spread the word about [Herd Works], [The Magic Highlighter], and more products to come by starring this repo on GitHub.
-
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/herdworks/feedback" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star herdworks/feedback on GitHub">Star</a>
+Help spread the word about [Herd Works], [The Magic Highlighter], and more products to come by [starring this project on GitHub].
 
 ## Issues
 
@@ -48,10 +45,9 @@ Note that you can narrow down the search using `labels` as filters (see [Labels]
 <!-- Links -->
 [Herd Works]: https://herd.works
 [The Magic Highlighter]: https://themagichighlighter.com 
+[starring this project on GitHub]: https://github.com/herdworks/feedback/stargazers
 [search if an issue already exists]: https://docs.github.com/en/github/searching-for-information-on-github/searching-on-github/searching-issues-and-pull-requests#search-by-the-title-body-or-comments
 [issue form]: https://github.com/herdworks/feedback/issues/new/choose
 [existing issues]: https://github.com/herdworks/feedback/issues 
 [Labels]: /LABELS.md
 
-<!-- Javascript -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
