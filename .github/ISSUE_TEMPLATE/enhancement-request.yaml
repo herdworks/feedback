@@ -1,3 +1,4 @@
+---
 name: Product Enhancement Request
 description: Share feedback about enhancements to EXISTING product features
 title: "[<product>] <subject>"
@@ -18,8 +19,8 @@ body:
       multiple: false
       options:
         - The Magic Highlighter
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: input
     id: subject
