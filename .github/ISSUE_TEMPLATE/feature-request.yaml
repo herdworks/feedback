@@ -3,7 +3,7 @@ name: New Feature Request
 description: Submit requests for NEW product features
 title: "[<product>] <subject>"
 labels:
-  - feature-request
+  - "feature request"
 body:
   - type: markdown
     attributes:

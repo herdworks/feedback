@@ -3,7 +3,7 @@ name: Product Enhancement Request
 description: Share feedback about enhancements to EXISTING product features
 title: "[<product>] <subject>"
 labels:
-  - enhancement-request
+  - "enhancement request"
 body:
   - type: markdown
     attributes:
